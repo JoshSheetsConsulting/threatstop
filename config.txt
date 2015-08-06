@@ -1,0 +1,14 @@
+# This is what a comment looks like, ignore it
+# All these config lines are valid
+host = test.com
+port=22
+protocol=ssh
+type=web
+user= user
+password=qwerty
+# comment can appear here as well
+verbose =true
+test_mode = on
+debug_mode = off
+log_file_path = /var/log/logfile.log
+send_notifications = yes
