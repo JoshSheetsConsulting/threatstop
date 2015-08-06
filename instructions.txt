@@ -1,0 +1,9 @@
+The config class can be used by including the Config.php.
+
+The class can be instantiated by calling "new Config()". A file name variable is available for the initializing.
+If not provided, config.txt in the local directory is used by default.
+
+The instantiation will throw an exception if the file requested cannot be read or there is an error in the file.
+
+Each line of the config file can be accessed by its name as well as updated.
+
